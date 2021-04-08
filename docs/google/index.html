@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Kasina">
+<meta name="description" content="Automation on google pages">
 <meta name="author" content="Dhruv Patel, Dharmesh Patel, and AutoClicker contributors">
 <meta name="generator" content="Hugo 0.80.0">
 
-<title>Kasina · Auto Clicker AutoFill Examples v3.x</title>
+<title>Google · Auto Clicker AutoFill Examples v3.x</title>
 
-<link rel="canonical" href="https://examples.getautoclicker.com/kasina/">
+<link rel="canonical" href="https://examples.getautoclicker.com/google/">
 
 
 
@@ -29,14 +29,14 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@dhruvtechapps">
 <meta name="twitter:creator" content="@dhruvtechapps">
-<meta name="twitter:title" content="Kasina">
-<meta name="twitter:description" content="Kasina">
+<meta name="twitter:title" content="Google">
+<meta name="twitter:description" content="Automation on google pages">
 <meta name="twitter:image" content="https://getautoclicker.com/docs/3.x/assets/brand/bootstrap-social.png">
 
 <!-- Facebook -->
-<meta property="og:url" content="https://examples.getautoclicker.com/kasina/">
-<meta property="og:title" content="Kasina">
-<meta property="og:description" content="Kasina">
+<meta property="og:url" content="https://examples.getautoclicker.com/google/">
+<meta property="og:title" content="Google">
+<meta property="og:description" content="Automation on google pages">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://getautoclicker.com/docs/3.x/assets/brand/bootstrap-social.png">
 <meta property="og:image:type" content="image/png">
@@ -150,11 +150,11 @@
     <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Docs navigation">
   <ul class="list-unstyled mb-0 py-3 pt-md-1">
     <li>
-      <a href="/test/" class="d-inline-flex align-items-center rounded"
-        >Test</a>
+      <a href="/test.getautoclicker.com/" class="d-inline-flex align-items-center rounded"
+        >test.getautoclicker.com</a>
     </li><li>
-      <a href="/kasina/" class="d-inline-flex align-items-center rounded"
-        >Kasina</a>
+      <a href="/google/" class="d-inline-flex align-items-center rounded"
+        >Google</a>
     </li><li>
       <a href="/facebook/" class="d-inline-flex align-items-center rounded"
         >Facebook</a>
@@ -167,11 +167,11 @@
     <div class="bd-intro ps-lg-4">
       <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
         <a class="btn btn-sm btn-bd-light mb-2 mb-md-0"
-          href="https://github.com/dhruv-techapps/auto-click-auto-fill/blob/main/site/content/kasina.md"
+          href="https://github.com/dhruv-techapps/auto-click-auto-fill/blob/main/site/content/google-recaptcha.md"
           title="View and edit this file on GitHub" target="_blank" rel="noopener">View on GitHub</a>
-        <h1 class="bd-title" id="content">Kasina</h1>
+        <h1 class="bd-title" id="content">Google</h1>
       </div>
-      <p class="bd-lead">Kasina</p>
+      <p class="bd-lead">Automation on google pages</p>
       <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-9512495707028343"
@@ -186,50 +186,39 @@
     
     <div class="bd-toc mt-4 mb-5 my-md-0 ps-xl-3 mb-lg-5 text-muted">
       <strong class="d-block h6 my-2 pb-2 border-bottom">On this page</strong>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#to-select-size">To select size</a></li>
-  </ul>
-</nav>
+      <nav id="TableOfContents"></nav>
     </div>
     
 
     <div class="bd-content ps-lg-4">
       
 
-      <h2 id="to-select-size">To select size</h2>
+      <h1 id="google-recaptcha">Google Recaptcha</h1>
+<blockquote>
+<p>This below configuration only works when google re-captcha do not require solving puzzle.</p>
+</blockquote>
 <div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
-  <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;kasina&#34;</span><span class="p">,</span>
-  <span class="nt">&#34;url&#34;</span><span class="p">:</span> <span class="s2">&#34;https://www.kasina.co.kr/goods/goods_view.php&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;google-recaptcha&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;url&#34;</span><span class="p">:</span> <span class="s2">&#34;https://www.google.com/recaptcha&#34;</span><span class="p">,</span>
   <span class="nt">&#34;initWait&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
   <span class="nt">&#34;startTime&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
   <span class="nt">&#34;enable&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
   <span class="nt">&#34;startType&#34;</span><span class="p">:</span> <span class="s2">&#34;auto&#34;</span><span class="p">,</span>
   <span class="nt">&#34;loadType&#34;</span><span class="p">:</span> <span class="s2">&#34;window&#34;</span><span class="p">,</span>
-  <span class="nt">&#34;batch&#34;</span><span class="p">:</span> <span class="p">{</span>
-    <span class="nt">&#34;refresh&#34;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-    <span class="nt">&#34;repeat&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-    <span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span> <span class="mi">0</span>
-  <span class="p">},</span>
+  <span class="nt">&#34;hotkey&#34;</span><span class="p">:</span> <span class="s2">&#34;Ctrl + Shift + A&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;batch&#34;</span><span class="p">:</span> <span class="p">{</span> <span class="nt">&#34;refresh&#34;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> <span class="nt">&#34;repeat&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span> <span class="mi">0</span> <span class="p">},</span>
   <span class="nt">&#34;actions&#34;</span><span class="p">:</span> <span class="p">[</span>
     <span class="p">{</span>
       <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
       <span class="nt">&#34;initWait&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-      <span class="nt">&#34;elementFinder&#34;</span><span class="p">:</span> <span class="s2">&#34;//div[@class=\&#34;item_add_option_box\&#34;]/dl/dd/div&#34;</span><span class="p">,</span>
-      <span class="nt">&#34;value&#34;</span><span class="p">:</span> <span class="s2">&#34;MouseEvents::[\&#34;mouseover\&#34;, \&#34;mousedown\&#34;, \&#34;mouseup\&#34;,\&#34;click\&#34;]&#34;</span><span class="p">,</span>
-      <span class="nt">&#34;repeat&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-      <span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span> <span class="mi">0</span>
-    <span class="p">},</span>
-    <span class="p">{</span>
-      <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
-      <span class="nt">&#34;initWait&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-      <span class="nt">&#34;elementFinder&#34;</span><span class="p">:</span> <span class="s2">&#34;//div[@class=\&#34;item_add_option_box\&#34;]/dl/dd/div/div/ul/li[contains(text(),\&#34;235\&#34;)]&#34;</span><span class="p">,</span>
-      <span class="nt">&#34;value&#34;</span><span class="p">:</span> <span class="s2">&#34;MouseEvents::[\&#34;mouseover\&#34;, \&#34;mousedown\&#34;, \&#34;mouseup\&#34;,\&#34;click\&#34;]&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;elementFinder&#34;</span><span class="p">:</span> <span class="s2">&#34;//span[contains(@class,\&#34;recaptcha-checkbox\&#34;)]&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;value&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
       <span class="nt">&#34;repeat&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
       <span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span> <span class="mi">0</span>
     <span class="p">}</span>
   <span class="p">]</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span>
+</code></pre></div>
 
     </div>
   </main>

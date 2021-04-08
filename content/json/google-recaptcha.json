@@ -1,0 +1,21 @@
+{
+  "name": "google-recaptcha",
+  "url": "https://www.google.com/recaptcha",
+  "initWait": 0,
+  "startTime": "",
+  "enable": true,
+  "startType": "auto",
+  "loadType": "window",
+  "hotkey": "Ctrl + Shift + A",
+  "batch": { "refresh": false, "repeat": 0, "repeatInterval": 0 },
+  "actions": [
+    {
+      "name": "",
+      "initWait": 0,
+      "elementFinder": "//span[contains(@class,\"recaptcha-checkbox\")]",
+      "value": "",
+      "repeat": 0,
+      "repeatInterval": 0
+    }
+  ]
+}
