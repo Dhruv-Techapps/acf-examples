@@ -1,0 +1,52 @@
+{
+  "name": "Nike_Login",
+  "url": "https://www.nike.com/in/launch",
+  "initWait": 0,
+  "startTime": "",
+  "enable": true,
+  "startType": "auto",
+  "loadType": "window",
+  "hotkey": "Ctrl + Shift + A",
+  "batch": { "refresh": false, "repeat": 0, "repeatInterval": 0 },
+  "actions": [
+    {
+      "name": "",
+      "initWait": 0,
+      "elementFinder": "//button[@data-qa=\"top-nav-join-or-login-button\"]",
+      "value": "",
+      "repeat": 0,
+      "repeatInterval": 0,
+      "addon": { "elementFinder": "", "value": "", "condition": "", "valueExtractor": "", "recheck": 0, "recheckInterval": 0, "recheckOption": "stop" }
+    },
+    {
+      "name": "",
+      "initWait": "0e1",
+      "elementFinder": "//input[@type=\"email\"]",
+      "value": "email",
+      "repeat": 0,
+      "repeatInterval": 0,
+      "addon": { "elementFinder": "", "value": "", "condition": "", "valueExtractor": "", "recheck": 0, "recheckInterval": 0, "recheckOption": "stop" },
+      "focus": true
+    },
+    {
+      "name": "",
+      "initWait": "0e1",
+      "elementFinder": "//input[@type=\"password\"]",
+      "value": "password",
+      "repeat": 0,
+      "repeatInterval": 0,
+      "addon": { "elementFinder": "", "value": "", "condition": "", "valueExtractor": "", "recheck": 0, "recheckInterval": 0, "recheckOption": "stop" },
+      "focus": true
+    },
+    {
+      "name": "",
+      "initWait": "0e1",
+      "elementFinder": "//input[@value=\"SIGN IN\"]",
+      "value": "",
+      "repeat": 0,
+      "repeatInterval": 0,
+      "addon": { "elementFinder": "", "value": "", "condition": "", "valueExtractor": "", "recheck": 0, "recheckInterval": 0, "recheckOption": "stop" },
+      "focus": true
+    }
+  ]
+}

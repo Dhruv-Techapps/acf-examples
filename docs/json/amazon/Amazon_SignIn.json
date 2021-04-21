@@ -1,0 +1,51 @@
+{
+  "name": "Amazon_SignIn",
+  "url": "https://www.amazon.in/ap/signin",
+  "initWait": 0,
+  "startTime": "",
+  "enable": true,
+  "startType": "auto",
+  "loadType": "window",
+  "hotkey": "Ctrl + Shift + A",
+  "batch": { "refresh": false, "repeat": 0, "repeatInterval": 0 },
+  "actions": [
+    {
+      "name": "",
+      "initWait": 0,
+      "elementFinder": "//input[@type=\"email\"]",
+      "value": "EMAIL ADDRESS",
+      "repeat": 0,
+      "repeatInterval": 0,
+      "addon": { "elementFinder": "", "value": "", "condition": "", "valueExtractor": "", "recheck": 0, "recheckInterval": 0, "recheckOption": "stop" },
+      "settings": { "retry": 1, "retryOption": "skip" }
+    },
+    {
+      "name": "",
+      "initWait": 0,
+      "elementFinder": "//input[@type=\"password\"]",
+      "value": "PASSWORD",
+      "repeat": 0,
+      "repeatInterval": 0,
+      "addon": { "elementFinder": "", "value": "", "condition": "", "valueExtractor": "", "recheck": 0, "recheckInterval": 0, "recheckOption": "stop" },
+      "settings": { "retry": 1, "retryOption": "skip" }
+    },
+    {
+      "name": "",
+      "initWait": 0,
+      "elementFinder": "//input[@type=\"checkbox\"]",
+      "value": "",
+      "repeat": 0,
+      "repeatInterval": 0,
+      "addon": { "elementFinder": "", "value": "", "condition": "", "valueExtractor": "", "recheck": 0, "recheckInterval": 0, "recheckOption": "stop" }
+    },
+    {
+      "name": "",
+      "initWait": 0,
+      "elementFinder": "//input[@id=\"continue\"]",
+      "value": "",
+      "repeat": 0,
+      "repeatInterval": 0,
+      "addon": { "elementFinder": "", "value": "", "condition": "", "valueExtractor": "", "recheck": 0, "recheckInterval": 0, "recheckOption": "stop" }
+    }
+  ]
+}

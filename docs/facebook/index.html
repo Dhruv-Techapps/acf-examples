@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Auto Click / Auto Fill is like a utility extension which helps user to click / fill on any website with by providing few information about the site and the button which they want to click.">
+<meta name="description" content="Facebook Automation">
 <meta name="author" content="Dhruv Patel, Dharmesh Patel, and AutoClicker contributors">
 <meta name="generator" content="Hugo 0.80.0">
 
@@ -30,13 +30,13 @@
 <meta name="twitter:site" content="@dhruvtechapps">
 <meta name="twitter:creator" content="@dhruvtechapps">
 <meta name="twitter:title" content="Facebook">
-<meta name="twitter:description" content="Auto Click / Auto Fill is like a utility extension which helps user to click / fill on any website with by providing few information about the site and the button which they want to click.">
+<meta name="twitter:description" content="Facebook Automation">
 <meta name="twitter:image" content="https://getautoclicker.com/docs/3.x/assets/brand/bootstrap-social.png">
 
 <!-- Facebook -->
 <meta property="og:url" content="https://examples.getautoclicker.com/facebook/">
 <meta property="og:title" content="Facebook">
-<meta property="og:description" content="Auto Click / Auto Fill is like a utility extension which helps user to click / fill on any website with by providing few information about the site and the button which they want to click.">
+<meta property="og:description" content="Facebook Automation">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://getautoclicker.com/docs/3.x/assets/brand/bootstrap-social.png">
 <meta property="og:image:type" content="image/png">
@@ -150,8 +150,17 @@
     <nav class="collapse bd-links" id="bd-docs-nav" aria-label="Docs navigation">
   <ul class="list-unstyled mb-0 py-3 pt-md-1">
     <li>
-      <a href="/test.getautoclicker.com/" class="d-inline-flex align-items-center rounded"
-        >test.getautoclicker.com</a>
+      <a href="/test-page/" class="d-inline-flex align-items-center rounded"
+        >Test Page</a>
+    </li><li>
+      <a href="/twitter/" class="d-inline-flex align-items-center rounded"
+        >Twitter</a>
+    </li><li>
+      <a href="/nike/" class="d-inline-flex align-items-center rounded"
+        >Nike</a>
+    </li><li>
+      <a href="/kasina/" class="d-inline-flex align-items-center rounded"
+        >Kasina</a>
     </li><li>
       <a href="/google/" class="d-inline-flex align-items-center rounded"
         >Google</a>
@@ -167,11 +176,11 @@
     <div class="bd-intro ps-lg-4">
       <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
         <a class="btn btn-sm btn-bd-light mb-2 mb-md-0"
-          href="https://github.com/dhruv-techapps/auto-click-auto-fill/blob/main/site/content/facebook.md"
+          href="https://github.com/dhruv-techapps/auto-click-auto-fill/blob/main/site/content/nike.md"
           title="View and edit this file on GitHub" target="_blank" rel="noopener">View on GitHub</a>
         <h1 class="bd-title" id="content">Facebook</h1>
       </div>
-      <p class="bd-lead"></p>
+      <p class="bd-lead">Facebook Automation</p>
       <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-9512495707028343"
@@ -193,7 +202,48 @@
     <div class="bd-content ps-lg-4">
       
 
-      <h1 id="coming-soon">Coming Soon</h1>
+      <h1 id="sign-in">Sign In</h1>
+<div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
+  <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;Facebook Login&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;url&#34;</span><span class="p">:</span> <span class="s2">&#34;https://www.facebook.com/&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;initWait&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+  <span class="nt">&#34;startTime&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;enable&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+  <span class="nt">&#34;startType&#34;</span><span class="p">:</span> <span class="s2">&#34;auto&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;loadType&#34;</span><span class="p">:</span> <span class="s2">&#34;window&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;hotkey&#34;</span><span class="p">:</span> <span class="s2">&#34;Ctrl + Shift + A&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;batch&#34;</span><span class="p">:</span> <span class="p">{</span> <span class="nt">&#34;refresh&#34;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span> <span class="nt">&#34;repeat&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span> <span class="mi">0</span> <span class="p">},</span>
+  <span class="nt">&#34;actions&#34;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;initWait&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&#34;elementFinder&#34;</span><span class="p">:</span> <span class="s2">&#34;#email&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;value&#34;</span><span class="p">:</span> <span class="s2">&#34;Email&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;repeat&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&#34;addon&#34;</span><span class="p">:</span> <span class="p">{</span> <span class="nt">&#34;elementFinder&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="nt">&#34;value&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="nt">&#34;condition&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="nt">&#34;valueExtractor&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="nt">&#34;recheck&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nt">&#34;recheckInterval&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nt">&#34;recheckOption&#34;</span><span class="p">:</span> <span class="s2">&#34;stop&#34;</span> <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;initWait&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&#34;elementFinder&#34;</span><span class="p">:</span> <span class="s2">&#34;#pass&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;value&#34;</span><span class="p">:</span> <span class="s2">&#34;Password&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;repeat&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&#34;addon&#34;</span><span class="p">:</span> <span class="p">{</span> <span class="nt">&#34;elementFinder&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="nt">&#34;value&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="nt">&#34;condition&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="nt">&#34;valueExtractor&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="nt">&#34;recheck&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nt">&#34;recheckInterval&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nt">&#34;recheckOption&#34;</span><span class="p">:</span> <span class="s2">&#34;stop&#34;</span> <span class="p">}</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;initWait&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&#34;elementFinder&#34;</span><span class="p">:</span> <span class="s2">&#34;//button[@type=\&#34;submit\&#34;]&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;value&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;repeat&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&#34;repeatInterval&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&#34;addon&#34;</span><span class="p">:</span> <span class="p">{</span> <span class="nt">&#34;elementFinder&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="nt">&#34;value&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="nt">&#34;condition&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="nt">&#34;valueExtractor&#34;</span><span class="p">:</span> <span class="s2">&#34;&#34;</span><span class="p">,</span> <span class="nt">&#34;recheck&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nt">&#34;recheckInterval&#34;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nt">&#34;recheckOption&#34;</span><span class="p">:</span> <span class="s2">&#34;stop&#34;</span> <span class="p">}</span>
+    <span class="p">}</span>
+  <span class="p">]</span>
+<span class="p">}</span>
+</code></pre></div>
 
     </div>
   </main>

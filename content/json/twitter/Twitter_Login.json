@@ -1,0 +1,52 @@
+{
+  "name": "Twitter_Login",
+  "url": "https://twitter.com/",
+  "initWait": 0,
+  "startTime": "",
+  "enable": true,
+  "startType": "auto",
+  "loadType": "window",
+  "hotkey": "Ctrl + Shift + A",
+  "batch": { "refresh": false, "repeat": 0, "repeatInterval": 0 },
+  "actions": [
+    {
+      "name": "",
+      "initWait": 0,
+      "elementFinder": "//span[contains(text(),\"Log in\")]",
+      "value": "",
+      "repeat": 0,
+      "repeatInterval": 0,
+      "addon": { "elementFinder": "", "value": "", "condition": "", "valueExtractor": "", "recheck": 0, "recheckInterval": 0, "recheckOption": "stop" }
+    },
+    {
+      "name": "",
+      "initWait": 1,
+      "elementFinder": "//input[@type=\"text\"]",
+      "value": "username",
+      "repeat": 0,
+      "repeatInterval": 0,
+      "addon": { "elementFinder": "", "value": "", "condition": "", "valueExtractor": "", "recheck": 0, "recheckInterval": 0, "recheckOption": "stop" },
+      "focus": true
+    },
+    {
+      "name": "",
+      "initWait": 0,
+      "elementFinder": "//input[@type=\"password\"]",
+      "value": "password",
+      "repeat": 0,
+      "repeatInterval": 0,
+      "addon": { "elementFinder": "", "value": "", "condition": "", "valueExtractor": "", "recheck": 0, "recheckInterval": 0, "recheckOption": "stop" },
+      "focus": true
+    },
+    {
+      "name": "",
+      "initWait": 0,
+      "elementFinder": "//div[@role=\"button\"]",
+      "value": "",
+      "repeat": 0,
+      "repeatInterval": 0,
+      "addon": { "elementFinder": "", "value": "", "condition": "", "valueExtractor": "", "recheck": 0, "recheckInterval": 0, "recheckOption": "stop" },
+      "focus": true
+    }
+  ]
+}

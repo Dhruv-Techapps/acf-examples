@@ -1,11 +1,14 @@
 ---
 layout: examples
-title:  "Facebook"
-description: ## Coming Soon
+title:  "Nike"
+description: Nike Automation
 date: 2021-03-01
-group: facebook
+group: nike
+author: Dhruv Techapps
 toc: true
-tags: ["facebook", "auto like", "auto clicker", "auto fill"]
+tags: ["nike", "auto like", "auto clicker", "auto fill"]
 ---
 
-# Coming Soon
+# Sign In
+
+{{< readfile highlight="json" file="json/nike/Nike_Login.json" >}}

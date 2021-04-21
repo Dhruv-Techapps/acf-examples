@@ -1,9 +1,9 @@
 ---
 layout: examples
-title:  "test.getautoclicker.com"
+title:  Test Page
 description: Test all our features on this page
 author: Dhruv Techapps
-date: 2021-03-01
+date: 2022-03-01
 toc: true
 tags: ["getautoclicker", "auto fill", "test", "auto like", "auto clicker", "auto fill"]
 ---
